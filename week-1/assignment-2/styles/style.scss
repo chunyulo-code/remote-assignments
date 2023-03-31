@@ -17,13 +17,13 @@
   color: rgba(113, 113, 113, 255);
   .hamburger-icon {
     height: 50%;
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
       display: none;
     }
   }
   .lists {
     display: none;
-    @include respond-to(tablet) {
+    @include respond-to(desktop) {
       width: 40%;
       display: flex;
       justify-content: space-around;
