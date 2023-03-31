@@ -46,15 +46,13 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    @include respond-to(desktop) {
-      max-width: 75%;
-    }
     .gallery-title {
       font-size: 1rem;
       margin: 20px 0;
     }
     .boxes {
       width: 90%;
+      max-width: 1200px;
       margin: 0 auto;
       @include respond-to(tablet) {
         display: flex;
@@ -69,7 +67,7 @@
         margin-bottom: 10px;
         padding: 10px;
         @include respond-to(tablet) {
-          max-width: 49%;
+          width: calc(50% - 5px);
         }
       }
     }

@@ -77,12 +77,6 @@
   margin: 0 auto;
 }
 
-@media (min-width: 800px) {
-  .main-content .gallery {
-    max-width: 75%;
-  }
-}
-
 .main-content .gallery .gallery-title {
   font-size: 1rem;
   margin: 20px 0;
@@ -90,6 +84,7 @@
 
 .main-content .gallery .boxes {
   width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -117,7 +112,7 @@
 
 @media (min-width: 500px) {
   .main-content .gallery .boxes .box {
-    max-width: 49%;
+    width: calc(50% - 5px);
   }
 }
 
