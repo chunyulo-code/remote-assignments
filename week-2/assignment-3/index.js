@@ -10,7 +10,7 @@
 
 //Solution-2
 function calculate(data) {
-  const discount = data.discount;
+  const discount = 1 - data.discount;
   let discountedPrice = data.products.reduce((total, product) => {
     return total + product.price * discount;
   }, 0);
