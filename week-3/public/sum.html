@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>sum</title>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <p>Enter a number n, and you will get the sum of 1+2+3+....+n.</p>
-    <form action="/getData" method="get">
-      <label for="number">Type in a number</label>
-      <input type="text" name="number" placeholder="Any number" />
-      <button type="submit">Calculate</button>
-    </form>
+    <div class="wrapper">
+      <h1>Calculator</h1>
+      <p>Enter a number n, and you will get the sum of 1+2+3+....+n.</p>
+      <form action="/getData" method="get">
+        <label for="number">Type in a number</label>
+        <input type="text" name="number" placeholder="Any number" />
+        <button type="submit">Calculate</button>
+      </form>
+    </div>
   </body>
 </html>
