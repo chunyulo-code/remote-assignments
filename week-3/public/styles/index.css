@@ -18,28 +18,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #3a3e63;
+  background-color: #27293b;
   color: #ffffff;
 }
 
 body .wrapper {
   width: 60%;
   margin: 0 auto;
-}
-
-body .wrapper h1 {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-  color: #776ed8;
-  text-shadow: 0px 0px 3px #695fd2;
-}
-
-body .wrapper p {
-  line-height: 2rem;
-  margin-bottom: 0.8rem;
-}
-
-body .wrapper form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,14 +37,34 @@ body .wrapper form {
           align-items: center;
 }
 
-body .wrapper form label {
+body .wrapper h1 {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+  color: #776ed8;
+  text-shadow: 0px 0px 3px #7c75cc;
+}
+
+body .wrapper p {
+  line-height: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+body .wrapper .answer span {
+  font-size: 2rem;
+  margin-left: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #564ae0;
+}
+
+body .wrapper label {
   margin-top: 1.5rem;
   font-size: 0.8rem;
 }
 
-body .wrapper form input {
-  width: 100%;
-  max-width: 550px;
+body .wrapper input {
+  width: 80%;
+  max-width: 350px;
   height: 2rem;
   text-align: center;
   margin: 1rem 0 1.5rem 0;
@@ -67,23 +72,23 @@ body .wrapper form input {
   border: none;
 }
 
-body .wrapper form input::-webkit-input-placeholder {
+body .wrapper input::-webkit-input-placeholder {
   color: #cdcdcd;
 }
 
-body .wrapper form input:-ms-input-placeholder {
+body .wrapper input:-ms-input-placeholder {
   color: #cdcdcd;
 }
 
-body .wrapper form input::-ms-input-placeholder {
+body .wrapper input::-ms-input-placeholder {
   color: #cdcdcd;
 }
 
-body .wrapper form input::placeholder {
+body .wrapper input::placeholder {
   color: #cdcdcd;
 }
 
-body .wrapper form button {
+body .wrapper button {
   padding: 0.5rem 1rem;
   background-color: #564ae0;
   cursor: pointer;
@@ -101,7 +106,7 @@ body .wrapper form button {
   body .wrapper h1 {
     font-size: 3rem;
   }
-  body .wrapper form input {
+  body .wrapper input {
     width: 90%;
   }
 }

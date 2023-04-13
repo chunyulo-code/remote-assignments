@@ -10,10 +10,8 @@ router.get("/", (req, res) => {
     res.send("Wrong Parameter");
   } else {
     const sum = (inputValue * (inputValue + 1)) / 2;
-    res.send(`The answer is ${sum.toString()}`);
+    res.send(sum.toString());
   }
 });
 
 module.exports = router;
-
-//  http://localhost:3000/getData?number=xyz

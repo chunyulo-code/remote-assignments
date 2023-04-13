@@ -11,11 +11,16 @@
     <div class="wrapper">
       <h1>Calculator</h1>
       <p>Enter a number n, and you will get the sum of 1+2+3+....+n.</p>
-      <form action="/getData" method="get">
-        <label for="number">Type in a number</label>
-        <input type="text" name="number" placeholder="Any number" />
-        <button type="submit">Calculate</button>
-      </form>
+      <p class="answer"></p>
+      <label for="inputNum">Type in a number</label>
+      <input
+        class="inputNum"
+        type="text"
+        name="inputNum"
+        placeholder="Any number"
+      />
+      <button class="calculateBtn">Calculate</button>
     </div>
+    <script src="./sum.js"></script>
   </body>
 </html>

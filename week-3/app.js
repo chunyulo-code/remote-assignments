@@ -15,5 +15,5 @@ app.use("/getData", getDataRoutes);
 // -----listen------
 
 app.listen("3000", (req, res) => {
-  console.log("Hello, My Server!, localhost:3000");
+  console.log("Hello, the server is running");
 });
