@@ -36,6 +36,7 @@ body {
       }
       input {
         width: 100%;
+        max-width: 550px;
         height: 2rem;
         text-align: center;
         margin: 1rem 0 1.5rem 0;
@@ -62,6 +63,9 @@ body {
   body {
     .wrapper {
       width: 85%;
+      h1 {
+        font-size: 3rem;
+      }
       form {
         input {
           width: 90%;
