@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const router = express.Router();
 
 router.get("/", (req, res) => {
@@ -9,7 +10,8 @@ router.get("/myName", (req, res) => {
   if (req.cookies.name) {
     res.send(req.cookies.name);
   } else {
-    res.redirect("/login.html");
+    const rootPath = path.resolve(__dirname, "..");
+    res.sendFile(path.join(rootPath, "public", "login.html"));
   }
 });
 
