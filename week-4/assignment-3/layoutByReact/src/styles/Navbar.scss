@@ -1,0 +1,55 @@
+@import "_breakpoints";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 240, 240, 255);
+  height: 45px;
+  padding: 0px 45px;
+  font-size: 0.8rem;
+  color: rgba(113, 113, 113, 255);
+  .hamburger-icon {
+    height: 50%;
+    cursor: pointer;
+    @include respond-to(desktop) {
+      display: none;
+    }
+  }
+  .lists {
+    display: none;
+    @include respond-to(desktop) {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  }
+  .closeBtn {
+    display: none;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    top: 0%;
+    right: 2rem;
+    line-height: 45px;
+    font-size: 1.4rem;
+    z-index: 100;
+  }
+  .lists-mobile {
+    display: block;
+    background-color: white;
+    color: black;
+    list-style: none;
+    width: 50%;
+    max-width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    li {
+      font-size: 1rem;
+      padding: 1rem 1.5rem;
+    }
+  }
+}

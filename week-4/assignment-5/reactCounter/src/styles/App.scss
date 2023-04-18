@@ -1,0 +1,32 @@
+$primary-gray: rgb(131, 131, 131);
+
+.counter {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  .addOneBtn {
+    padding: 0.2rem 1.2rem;
+    border: 1px solid $primary-gray;
+    font-size: 1.2rem;
+    color: $primary-gray;
+    background-color: transparent;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  .numDisplay {
+    color: $primary-gray;
+    margin-left: 1rem;
+  }
+}
+.board {
+  .allPlusOne,
+  .addCounter {
+    padding: 0.2rem 1.2rem;
+    border: 1px solid $primary-gray;
+    font-size: 1.2rem;
+    color: $primary-gray;
+    background-color: transparent;
+    margin: 1.2rem 0;
+    cursor: pointer;
+  }
+}

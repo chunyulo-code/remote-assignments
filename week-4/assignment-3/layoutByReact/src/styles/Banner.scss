@@ -1,0 +1,9 @@
+@import "_breakpoints";
+.banner {
+  height: 200px;
+  background-color: rgba(210, 225, 240, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}

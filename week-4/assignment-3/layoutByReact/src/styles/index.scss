@@ -1,0 +1,10 @@
+@import "_breakpoints";
+@import "./Navbar.scss";
+@import "./Banner.scss";
+@import "./Gallery.scss";
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
