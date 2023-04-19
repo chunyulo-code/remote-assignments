@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://chunyulo-code.github.io/remote-assignments/week-4/assignment-5/reactcounter",
+  "homepage": "https://chunyulo-code.github.io/remote-assignments/week-4/assignment-5/reactCounter/gh-pages/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
