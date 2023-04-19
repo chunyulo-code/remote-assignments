@@ -31,15 +31,16 @@
     color: rgb(109, 109, 109);
   }
   .topics {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     .topic {
+      display: inline-block;
       font-weight: bolder;
       font-size: 0.9rem;
       padding: 0.3rem 0.8rem;
       background-color: #d5edfd;
       color: #056dff;
       border-radius: 15px;
-      margin-right: 0.3rem;
+      margin: 0.6rem 0.4rem 0 0;
     }
   }
 }
