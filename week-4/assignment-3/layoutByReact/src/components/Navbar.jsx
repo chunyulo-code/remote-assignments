@@ -1,7 +1,13 @@
 import React, { useState } from "react";
+import burgerIcon from "../assets/menu-burger.svg";
 
 function Navbar() {
   const [showLsit, setShowList] = useState(false);
+
+  const listText = ["Item 1", "Item 2", "Item 3", "Item 4"];
+  const liElements = listText.map((text) => {
+    return <li>{text}</li>;
+  });
 
   function toggleListMobile() {
     setShowList((prev) => !prev);
@@ -12,7 +18,7 @@ function Navbar() {
       <div className="logo">Website Title / Logo</div>
       <img
         className="hamburger-icon"
-        src="../src/assets/menu-burger.svg"
+        src={burgerIcon}
         alt=""
         onClick={toggleListMobile}
       />
@@ -23,12 +29,7 @@ function Navbar() {
       >
         X
       </span>
-      <ul className={showLsit ? "lists-mobile" : "lists"}>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-      </ul>
+      <ul className={showLsit ? "lists-mobile" : "lists"}>{liElements}</ul>
     </div>
   );
 }
