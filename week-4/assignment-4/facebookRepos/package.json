@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -e ./week-4/assignment-4/facebookRepos"
+    "deploy": "gh-pages -d dist --dest=week-4/assignment-4/facebookrepos"
   },
   "dependencies": {
     "react": "^18.2.0",
