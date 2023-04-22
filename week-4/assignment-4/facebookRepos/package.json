@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist --dest=week-4/assignment-4/facebookrepos"
   },
   "dependencies": {
+    "clear": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
