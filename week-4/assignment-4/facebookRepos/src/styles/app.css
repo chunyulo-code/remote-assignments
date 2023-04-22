@@ -1,0 +1,122 @@
+.repo {
+  padding: 1.5rem 1rem;
+  border-bottom: 1.5px solid #cecece;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.repo:last-child {
+  border: none;
+}
+
+.repo .row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.repo .row-1 .repoName {
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2f81f7;
+}
+
+.repo .row-1 .repoStatus {
+  color: #4d4d4d;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #cecece;
+  border-radius: 20px;
+  margin-left: 0.6rem;
+}
+
+.repo .repoDesc {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  color: #6d6d6d;
+}
+
+.repo .topics {
+  margin-top: 0.6rem;
+}
+
+.repo .topics .topic {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+  background-color: #d5edfd;
+  color: #056dff;
+  border-radius: 15px;
+  margin: 0.6rem 0.4rem 0 0;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#root .main .repos {
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+}
+
+#root .main .moreButton {
+  margin-top: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  color: #2f81f7;
+  background-color: transparent;
+  cursor: pointer;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,46 @@
+.repo {
+  padding: 1.5rem 1rem;
+  border-bottom: 1.5px solid rgb(206, 206, 206);
+  display: flex;
+  flex-direction: column;
+
+  &:last-child {
+    border: none;
+  }
+  .row-1 {
+    display: flex;
+    align-items: center;
+    .repoName {
+      font-size: 1.4rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: #2f81f7;
+    }
+    .repoStatus {
+      color: rgb(77, 77, 77);
+      font-size: 0.8rem;
+      padding: 0.2rem 0.5rem;
+      border: 1px solid rgb(206, 206, 206);
+      border-radius: 20px;
+      margin-left: 0.6rem;
+    }
+  }
+  .repoDesc {
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    color: rgb(109, 109, 109);
+  }
+  .topics {
+    margin-top: 0.6rem;
+    .topic {
+      display: inline-block;
+      font-weight: bolder;
+      font-size: 0.9rem;
+      padding: 0.3rem 0.8rem;
+      background-color: #d5edfd;
+      color: #056dff;
+      border-radius: 15px;
+      margin: 0.6rem 0.4rem 0 0;
+    }
+  }
+}

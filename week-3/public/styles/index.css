@@ -1,0 +1,113 @@
+* {
+  padding-right: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #27293b;
+  color: #ffffff;
+}
+
+body .wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper h1 {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+  color: #776ed8;
+  text-shadow: 0px 0px 3px #7c75cc;
+}
+
+body .wrapper p {
+  line-height: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+body .wrapper .answer span {
+  font-size: 2rem;
+  margin-left: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #564ae0;
+}
+
+body .wrapper label {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+body .wrapper input {
+  width: 80%;
+  max-width: 350px;
+  height: 2rem;
+  text-align: center;
+  margin: 1rem 0 1.5rem 0;
+  border-radius: 10px;
+  border: none;
+}
+
+body .wrapper input::-webkit-input-placeholder {
+  color: #cdcdcd;
+}
+
+body .wrapper input:-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+body .wrapper input::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+body .wrapper input::placeholder {
+  color: #cdcdcd;
+}
+
+body .wrapper button {
+  padding: 0.5rem 1rem;
+  background-color: #564ae0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 3px #695fd2;
+          box-shadow: 0px 0px 3px #695fd2;
+}
+
+@media screen and (max-width: 500px) {
+  body .wrapper {
+    width: 85%;
+  }
+  body .wrapper h1 {
+    font-size: 3rem;
+  }
+  body .wrapper input {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
